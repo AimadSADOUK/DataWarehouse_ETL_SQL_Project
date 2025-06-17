@@ -1,0 +1,26 @@
+-- Loocking for duplicated primary key
+--Expectation: 
+select cst_id,
+count(*)
+from silver.crm_cust_info
+group by cst_id
+Having count(*) > 1 OR cst_id IS NULL;
+
+-- Checking unwanted spaces
+SELECT cst_firstname
+FROM silver.crm_cust_info
+WHERE cst_firstname != TRIM(cst_firstname);
+
+SELECT cst_lastname
+FROM silver.crm_cust_info
+WHERE cst_lastname != TRIM(cst_lastname);
+
+-- Data standardizzation & consistency
+select distinct cst_gndr
+FROM silver.crm_cust_info;
+
+select distinct
+cst_marital_status
+FROM silver.crm_cust_info
+
+

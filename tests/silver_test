@@ -47,7 +47,7 @@ ORDER BY sls_sales, sls_quantity, sls_price
 ;
 ---------------------------------------------------------------------------------
 Testing for silver.erp_cust_az12 TABLE
------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 -- Identify out-of range dates
 SELECT 
 bdate
@@ -58,3 +58,9 @@ OR bdate < '1924-01-01';
 -- Data standardization / consistency
 SELECT Distinct gen
 FROM silver.erp_cust_az12;
+-------------------------------------------------------------------------------------
+Testing for silver.erp_loc_a101 TABLE
+-------------------------------------------------------------------------------------
+-- Data standardization / consistancy
+SELECT DISTINCT cntry
+FROM silver.erp_loc_a101;

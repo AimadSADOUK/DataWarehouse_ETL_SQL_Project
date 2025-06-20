@@ -22,6 +22,8 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+5. **Data Analysis & EDA**: Trying to undertansting our datase and trying to uncover Insights.
+6. **Data Visualization**: Creating and building a dashbord with Power BI.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
@@ -29,7 +31,9 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
+- Data Analytics
+- Data Analysis
+- Data Visualization 
 
 ---
 
